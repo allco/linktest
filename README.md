@@ -1,1 +1,1 @@
-[linktest](easypark://ft/?mimEnabled=true)
+[linktest](http://ft/?mimEnabled=true)

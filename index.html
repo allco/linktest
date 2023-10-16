@@ -1,8 +1,40 @@
-
+<!DOCTYPE html>
 <html>
-  <h3>Wheel 3.0 feature flag control</h3>
-  <a href="easypark://ft/?useWheel30=true">enable</a>
-  <br/>
-  <a href="easypark://ft/?useWheel30=false">disable</a>
-    
+<head>
+    <title>Enable/Disable Buttons</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        button {
+            font-size: 24px;
+            padding: 10px 20px;
+            margin: 10px;
+        }
+        #enableButton {
+            background-color: #4CAF50;
+            color: white;
+        }
+        #disableButton {
+            background-color: #F44336;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button id="enableButton" onclick="window.location.href = 'easypark://ft/wheel30-force-on?=true'">Enable</button>
+        <button id="disableButton" onclick="window.location.href = 'easypark://ft/wheel30-force-off?=true'">Disable</button>
+    </div>
+</body>
 </html>
+

@@ -1,0 +1,7 @@
+<html>
+  <h3>Wheel 3.0 feature flag control</h3>
+  <a href="easypark://ft/?useWheel30=true">enable</a>
+  <br/>
+  <a href="easypark://ft/?useWheel30=false">disable</a>
+
+</html>
